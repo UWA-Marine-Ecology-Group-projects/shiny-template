@@ -3,9 +3,7 @@ ui <- dashboardPage(
   dashboardSidebar(
     sidebarMenu(
       menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
-      menuItem("Widgets", tabName = "widgets", icon = icon("th"))
-    )
-  ),
+      menuItem("Widgets", tabName = "widgets", icon = icon("th")))),
   ## Body content
   dashboardBody(
     tabItems(
@@ -30,15 +28,12 @@ ui <- dashboardPage(
                     choices = unique(length$scientific),
                     selected = NULL,
                     multiple = FALSE,
-                    selectize = TRUE#,
-                    # width = NULL,
-                    # size = NULL
+                    selectize = TRUE
                   ),
                   plotOutput("plotlength")
                 )
               )
       ),
-      
       # Second tab content
       tabItem(tabName = "widgets",
               h2("Widgets tab content")
