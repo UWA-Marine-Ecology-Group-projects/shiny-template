@@ -11,4 +11,4 @@
 
 ### Server
 - [Leaflet maps](https://rstudio.github.io/leaflet/shiny.html)
-- ["leafgl", a package to quickly render leaflet maps]
+- ["leafgl", a package to quickly render LOTS of polygons/points on leaflet maps](https://github.com/r-spatial/leafgl)
