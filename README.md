@@ -2,7 +2,8 @@
 
 ## Useful links
 ### Structure of a shiny app
-- [How to create a shiny dashboard using the package "shinydashboard"](https://rstudio.github.io/shinydashboard/get_started.html)
+- [Build a basic shiny app](https://shiny.rstudio.com/articles/build.html)
+- [Shiny dashboard using the package "shinydashboard"](https://rstudio.github.io/shinydashboard/get_started.html)
 - ["shinydashboardPlus"](https://rinterface.github.io/shinydashboardPlus/articles/shinydashboardPlus.html), extra functions for dashboard
 
 
